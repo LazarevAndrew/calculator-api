@@ -1,5 +1,9 @@
 # Calculator API
-
+## TODO
+    - add test;
+    - add middlewares: error, validation
+    - add documentation (swagger)
+    - add pre commit hooks
 ## Available Endpoints
 
 ### GET '/history' returns all calculations from calculations table 
