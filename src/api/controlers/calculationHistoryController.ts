@@ -1,15 +1,29 @@
 
 
 import { NextFunction, Request, Response } from "express";
+import { getCalculationHistory, addCalculationToHistory } from "../../services/calculationHistoryServise";
 
-export default async function getCalculationHistory(
+export async function getCalculations(
   req: Request,
   res: Response,
   next: NextFunction
 ) {
   try {
-    const response = [{calc: 1223, status: "SUCCESS"}];
+    const response = await getCalculationHistory()
     res.send(response);
+  } catch (error) {
+    next(error);
+  }
+}
+
+export async function postCalculation(
+  req: Request,
+  res: Response,
+  next: NextFunction
+) {
+  try {
+    await addCalculationToHistory(req.body)
+    res.sendStatus(201);
   } catch (error) {
     next(error);
   }

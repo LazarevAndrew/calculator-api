@@ -1,0 +1,96 @@
+[
+  {
+    "calc": "1+1=2",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "PYB3DpEo2VfhfA8wHKVWo",
+    "calc": "8+4=12",
+    "status": 0
+  },
+  {
+    "id": "HuD-6LCgigs0MxwHwN6La",
+    "calc": "12=12",
+    "status": 0
+  },
+  {
+    "id": "PDar9OpZT3dkFh7oBaUE6",
+    "calc": "=NaN",
+    "status": 0
+  },
+  {
+    "id": "2FfOVbwaUVJqdL5slkJC6",
+    "calc": "1+1=2",
+    "status": 0
+  },
+  {
+    "id": "pIgEUI_TbjABgCoVERhWU",
+    "calc": "2=2",
+    "status": 0
+  },
+  {
+    "id": "ZrtU5LBcJxE7yBlTfkjSs",
+    "calc": "=NaN",
+    "status": 0
+  },
+  {
+    "id": "HJ9sx4fm7vz9Vr57USf3V",
+    "calc": "NaN=NaN",
+    "status": 0
+  },
+  {
+    "id": "9c6rn0Cxnszn_gTB7zZVg",
+    "calc": "2+2=4",
+    "status": 0
+  },
+  {
+    "id": "R1GZOPmRQtvz2M-H-V8P8",
+    "calc": "2+2=4",
+    "status": 0
+  },
+  {
+    "id": "vOyYWmDNWCAX0SFkN9mh1",
+    "calc": "0+1=1",
+    "status": 0
+  },
+  {
+    "id": "1N1Y8-49hg1Spyvm7j-1R",
+    "calc": "24=24",
+    "status": 0
+  },
+  {
+    "id": "pXNz-NkKYyFJ6NcKTgbDp",
+    "calc": "2+2=4",
+    "status": 0
+  },
+  {
+    "id": "877TRffB-mGOMm0jczOSg",
+    "calc": "8+1=9",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "gyjEEKJ-6gIlFeMmUzOXz",
+    "calc": "8+2=10",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "MLi1GVxnGStp-YnrSKGi6",
+    "calc": "1+1=2",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "qNOECAPLz2o1JbKBksOsI",
+    "calc": "+-1+1=0",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "nnfh7XlJiDVokLl8kL6BK",
+    "calc": "2+2=4",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "kC_87a3v88CQRQsYx3Bw4",
+    "calc": "1+2=3",
+    "status": "SUCCESS"
+  }
+]
