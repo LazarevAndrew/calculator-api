@@ -1,5 +1,14 @@
 # Calculator API
 
+## Available Endpoints
+
+### GET '/history' returns all calculations from calculations table 
+### POST '/history' adds calculation to calculations table 
+    Body parameters {
+        calc: string
+        status: SUCCES || ERROR 
+    }
+    *DOES NOT CONTAINS ANY VALIDATION*
 ## Available Scripts
 
 In the project directory, you can run:
